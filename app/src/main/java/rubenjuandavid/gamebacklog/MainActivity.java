@@ -55,4 +55,11 @@ public class MainActivity extends AppCompatActivity {
 
         transaction.commit();
     }//onCreate
+
+    public boolean grande(){
+
+        return (findViewById(R.id.contenedor_resumen)!=null);
+    }//grande
+
+    
 }//MainActivity
